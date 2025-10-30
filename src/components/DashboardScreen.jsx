@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bell, House, MapPin, Clock, Navigation, Info, Home, Briefcase, Timer, Activity } from 'lucide-react';
+import { Bell, MapPin, Clock, Navigation, Info, Home, Briefcase, Timer, Activity } from 'lucide-react';
 
 const Badge = ({ children, className = '' }) => (
   <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${className}`}>{children}</span>
@@ -46,7 +46,7 @@ const NextJobCard = () => (
     <div className="space-y-2">
       <h3 className="text-lg font-semibold text-gray-900">Sarah Johnson</h3>
       <div className="flex items-center gap-2 text-gray-700">
-        <House size={18} className="text-blue-600" />
+        <Home size={18} className="text-blue-600" />
         <span className="font-medium">Deep Cleaning - 3BR Villa</span>
       </div>
       <div className="flex items-center gap-2 text-gray-600">
